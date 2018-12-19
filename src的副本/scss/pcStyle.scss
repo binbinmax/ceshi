@@ -1,0 +1,345 @@
+//阿里图标库
+@import "./reset.scss";
+
+.pc_box {
+    font-family: "微软雅黑";
+    a:hover {
+        text-decoration: none;
+    }
+    ul li {
+        list-style: none;
+    }
+
+    .main {
+
+
+        overflow: hidden;
+        height: auto;
+        .prt1,
+        .prt2,
+        .prt3,
+        .prt4,
+        .prt5 {
+            width: 100%;
+            background: url(../tyc/背景.png) center no-repeat / cover;
+            height: 3500px;
+
+        }
+        .margin_middle {
+            width: 1036px;
+            margin: 0 auto;
+            .content_title_bj {
+
+            }
+
+        }
+
+    }
+
+    //第一部分 banner 部分
+    .prt1 {
+        .banner_slider {
+            position: relative;
+        }
+        .txtwrap {
+            z-index: 10;
+            position: absolute;
+            top: 14%;
+            left: 39%;
+            width: auto;
+            margin-left: -200px;
+            padding-bottom: 40px;
+        }
+        .deco1 {
+            height:50px;
+            background: url(../images/deco1.png) center no-repeat;
+            position: absolute;
+            top:183px;
+            left:33%;
+            opacity: 0;
+        }
+        .deco2{
+            height:200px;
+            background: url(../images/deco2.png) center no-repeat;
+            position: absolute;
+            top:32%;
+            opacity: 0;
+        }
+        .titlewrap{
+            opacity: 0;
+        }
+
+
+
+    }
+    // 第二部分
+    .prt2 {
+
+        z-index: 20;
+        height:1675px;
+        position: relative;
+        color:#fff;
+
+        // 门票时间
+        .ticket_time{
+
+            position: absolute;
+            width:100%;
+            height:1500px;
+
+        }
+
+        // 门票权益
+        .ticket_interests{
+            position:absolute;
+            top:20%;
+            right:34%;
+            .title{
+                position: absolute;
+                top:2%;
+                left:-4%;
+                transform: rotate(3deg);
+            }
+            .ticket_desc{
+                line-height: 38px;
+                transform: rotate(3deg);
+                margin-top: 75px;
+
+
+            }
+            .ticket_total{
+                    position: absolute;
+                    top: 93%;
+                    right:39%;
+                    img{
+                        width:280px;
+                        height:115px;
+                    }
+                }
+        }
+        // 咨询按钮
+        .ticket_button{
+            position: absolute;
+            top:71%;
+            left:33%;
+            p{
+                padding:10px 20px;
+                background:#FFF001;
+                color:#6911a3;
+                font-size: 18px;
+                border-radius:8px;
+                box-shadow: 2px 2px 1px #ce9c98;
+            }
+        }
+
+    }
+    // 第三部分
+    .prt3 {
+
+
+        position: relative;
+        top:-6px;
+        // .wonderful_middle{
+        //     width:1047px;
+        //     margin:0 auto;
+        // }
+        .prt3_heading_inline{
+            background: url(../tyc/banner_01.png) no-repeat center / cover;
+            width:1500px;
+            height:1200px;
+
+        }
+        .prt4_heading_inline{
+            background: url(../tyc/zj_03.png) no-repeat center / cover;
+            width:1450px;
+            height:1000px;position: absolute;
+
+
+        }
+        .prt5_heading_inline{
+            background: url(../tyc/01_03.png) no-repeat center / cover;
+            width:200px;
+            height:100px;
+            left:600px;
+            top:50px;
+            position: absolute;
+            float:left;
+            margin-right: 13px;
+            transition:all .5s;
+            &:hover{
+                box-shadow: 10px 15px 15px rgba(105,17,163,.35);
+                transform:translateY(-20px)
+            }
+
+        }
+        .prt6_heading_inline{
+            background: url(../tyc/02_03.png) no-repeat center / cover;
+            width:200px;
+            height:100px;
+            right: 350px;
+              top:50px;
+            position: absolute;
+            float:left;
+            margin-right: 13px;
+            transition:all .5s;
+            &:hover{
+                box-shadow: 10px 15px 15px rgba(105,17,163,.35);
+                transform:translateY(-20px)
+            }
+
+        }
+        .prt7_heading_inline{
+            background: url(../tyc/图1_03.png) no-repeat center / cover;
+            width:200px;
+            height:100px;
+            left: 300px;
+              top:50px;
+            position: absolute;
+            float:left;
+            margin-right: 13px;
+            transition:all .5s;
+            &:hover{
+                box-shadow: 10px 15px 15px rgba(105,17,163,.35);
+                transform:translateY(-20px)
+            }
+        }
+        // .prt8_heading_inline{
+        //     background: url(../tyc/zh_03.png) no-repeat center / cover;
+        //     width:1500px;
+        //     height:1100px;
+        //
+        //       position: absolute;
+        //     // top:1200px;
+        // }
+
+        .prt9_heading_inline{
+            background: url(../tyc/7432594.png) no-repeat center / cover;
+            width:300px;
+            height:600px;
+              position: absolute;
+              top:45%;
+              left: 300px;
+              // &:hover{
+              //     box-shadow: 10px 15px 15px rgba(105,17,163,.35);
+              //     transform:translateY(-20px)
+              // }
+
+        }
+        .prt10_heading_inline{
+            background: url(../tyc/xq.png) no-repeat center / cover;
+            width:10%;
+            height:1%;
+              position: absolute;
+              top:2100px;
+              right: 25%;
+              transition:all .5s;
+
+              animation: mymove 3s infinite;
+              @keyframes mymove{
+                0%{transform: scaleX(1);}
+               50%{transform: scale3d(0.85,0.85,0.85);}
+               100%{transform: scaleX(1);}
+              }
+
+        }
+        .prt11_heading_inline{
+            background: url(../tyc/zh_02.png) no-repeat center / cover;
+            width:1500px;
+            height:1200px;
+
+              position: absolute;
+              top:62.5%;
+              // right: 25%;
+        }
+        .prt12_heading_inline{
+            background: url(../tyc/zt.png) no-repeat center / cover;
+            width:490px;
+            height:450px;
+              position: absolute;
+              top:30.5%;
+              left: 15%;
+        }
+        .prt13_heading_inline{
+            background: url(../tyc/tyc.png) no-repeat center / cover;
+            width:528px;
+            height:1000px;
+              position: absolute;
+              top:7.5%;
+              right: 14%;
+        }
+        .prt14_heading_inline{
+            background: url(../tyc/code.png) no-repeat center / cover;
+            width:200px;
+            height:200px;
+              position: absolute;
+              top:75%;
+              right: 11%;
+        }
+        .prt15_heading_inline{
+            background: url(../tyc/yj.png) no-repeat center / cover;
+            width:150px;
+            height:80px;
+              position: absolute;
+              top:60%;
+              right: 21%;
+        }
+
+
+    }
+
+
+}
+// 屏幕小于1920px时候
+
+@media screen and (max-width:1919px) {
+    }
+
+// 屏幕小于1680时候
+@media screen and (max-width:1680px) {
+    .pc_box .prt2 .ticket_time {
+
+        left: 16%;
+        top: 30%;
+    }
+    .pc_box .prt2 .ticket_interests {
+
+        right: 29%;
+
+    }
+    .pc_box .prt2 .ticket_button {
+        left: 28%;
+    }
+}
+//屏幕小于1920时候
+@media screen and (max-width:1919px) and (min-width:1679px) {
+    .pc_box .prt2 .ticket_time {
+
+        left: 22%;
+
+    }
+    .pc_box .prt2 .ticket_interests {
+
+        right: 32%;
+
+    }
+
+}
+
+
+// 1440-1280 屏幕
+
+@media screen and (max-width:1440px) and (min-width:1280px) {
+    .pc_box .prt2 .ticket_time {
+
+        left: 14%;
+
+    }
+    .pc_box .prt2 .ticket_interests {
+
+        right: 28%;
+
+    }
+}
+
+
+// 箭头动画效果
